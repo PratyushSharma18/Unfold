@@ -13,3 +13,6 @@
 #### Recyclerview & Webview:
 - All the fetched news articles would be shown in the recyclerview in a list view format within the fragments.
 - Webview enables the fuctionality to view the complete article within the application fragment without going to the browser.
+
+#### Room Database:
+- All the saved news articles would be stored in the room databsse so that the person could the access the saved articles even in the offline mode.
