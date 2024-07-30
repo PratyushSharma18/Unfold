@@ -9,3 +9,7 @@
 - A user can save any news article by clicking on the favourite button and the selected articles will show in the favourites fragment.
 - One can also delete the saved article and undo the same within the specific time.
 - One can also search the news by typing the desired topic or keyword in the search bar in search fragment and can get the news related to that topic.
+
+#### Recyclerview & Webview:
+- All the fetched news articles would be shown in the recyclerview in a list view format within the fragments.
+- Webview enables the fuctionality to view the complete article within the application fragment without going to the browser.
