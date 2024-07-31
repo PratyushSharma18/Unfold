@@ -14,5 +14,12 @@
 - All the fetched news articles would be shown in the recyclerview in a list view format within the fragments.
 - Webview enables the fuctionality to view the complete article within the application fragment without going to the browser.
 
-#### Room Database:
+#### Room Database(Entity, Database Access Object and Database):
+- Entity: It defines the data structure entity for a fetched news article.
+- DAO: Provides method for data process
+- Database: It acts as a database holder and serves as a main access point.
 - All the saved news articles would be stored in the room databsse so that the person could the access the saved articles even in the offline mode.
+
+#### Navigation framework:
+- Nav graph determines the navigation between the fragments within the application.
+- It instantiates the directional flow of activity/fragment from one to another.
