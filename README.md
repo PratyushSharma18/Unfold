@@ -5,6 +5,14 @@
 #### API Integration:
 - The API fetches latest news data from external sources every time a user uses the application as it would refresh on its own and update the latest news articles on the main news headlines fragment.
 
+#### Retrofit Instance:
+- A Retrofit instance is essential in integrating a News API into your Android application, providing a streamlined and efficient way to handle network requests and parse JSON responses.
+- This instance is configured with the base URL of the API, a converter factory (typically for JSON), and possibly an HTTP client for additional configurations like logging or timeouts.
+- Retrofit takes care of converting the raw JSON response into Kotlin data classes (e.g., NewsResponse). This is facilitated by the GsonConverterFactory, which automatically parses JSON into your predefined data structures.
+- Retrofit also provides mechanisms for error handling and logging. You can check if the response was successful using response.isSuccessful, and if not, handle errors accordingly. Additionally, you can add interceptors to log requests and responses, which is invaluable for debugging.
+- It provides a clean and efficient way to interact with APIs, handles the details of network communication, and maps JSON responses to Kotlin objects.
+
+
 #### Search & Save functionality:
 - A user can save any news article by clicking on the favourite button and the selected articles will show in the favourites fragment.
 - One can also delete the saved article and undo the same within the specific time.
